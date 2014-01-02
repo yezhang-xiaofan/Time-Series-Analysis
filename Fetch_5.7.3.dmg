@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Download Fetch</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta name="author" content="" />
+<meta name="description" content="Fetch Softworks" />
+<meta name="DC.creator" content="Happy Cog Studios - http://www.happycog.com" />
+<meta name="DC.subject" content="" />
+<meta name="viewport" content="width=774" />
+<link rel="shortcut icon" sizes="16x16" type="image/png" href="/i/screen/fetchsoftworks-16.png" />
+<link rel="shortcut icon" sizes="32x32" type="image/png" href="/i/screen/fetchsoftworks-16@2x.png" />
+<link rel="apple-touch-icon" sizes="57x57" type="image/png" href="/i/screen/fetchsoftworks-57.png" />
+<link rel="apple-touch-icon" sizes="114x114" type="image/png" href="/i/screen/fetchsoftworks-57@2x.png" />
+<link rel="apple-touch-icon" sizes="72x72" type="image/png" href="/i/screen/fetchsoftworks-72.png" />
+<link rel="apple-touch-icon" sizes="144x144" type="image/png" href="/i/screen/fetchsoftworks-72@2x.png" />
+
+<link href="/f/korolev.css" rel="stylesheet" media="screen, projection, print" type="text/css" />
+<link href="/f/proxima-nova.css" rel="stylesheet" media="screen, projection, print" type="text/css" />
+<link href="/f/arlt.css" rel="stylesheet" media="screen, projection, print" type="text/css" />
+<link href="/c/screen.css" rel="stylesheet" media="screen, projection" type="text/css" />
+<link href="/c/screen-retina.css" rel="stylesheet" media="screen, projection" type="text/css" />
+	<link href="/c/print.css" rel="stylesheet" media="print" type="text/css" />
+<!--[if gte IE 6]><link href="/c/ie.css" rel="stylesheet" media="screen, projection" type="text/css" /><![endif]-->
+<script type="text/javascript"><!-- 
+document.write('<link href="/c/enhanced.css" rel="stylesheet" media="screen, projection" type="text/css" />');
+//-->
+</script>
+<script src="/j/jquery-1.2.6.min.js" type="text/javascript"></script>
+<script src="/j/functions.js" type="text/javascript"></script>
+<script src="/j/thickbox.js" type="text/javascript"></script>
+<script src="/j/jquery.dimensions.min.js" type="text/javascript"></script>
+<script src="/j/jquery.retina.js" type="text/javascript"></script>
+<script src="/j/AC_Quicktime.js" type="text/javascript"></script>
+	<link rel="alternate" type="application/rss+xml" title="Fetch Softworks: Product News" href="/news/feed" />
+	<link rel="alternate" type="application/rss+xml" title="Fetch Softworks: Product News and Company Blog" href="/feed" />
+</head>
+
+<body class="fetch download">
+	
+	<div id="header-wrap1">
+		
+	<div id="header-wrap2">
+		
+		<div id="header">
+		
+			<div id="mast">
+								<img id="logo" src="/i/screen/logo-nostyle.jpg" alt="Fetch Softworks" />
+								<h1><a href="/">Fetch Softworks</a></h1>
+			</div>	
+			<script type="text/javascript">
+				$(document).ready(function() {
+					$('#nav li.products-nav ul').hide();
+					$('#nav li.products-nav').hover(function() {
+						$('#nav li.products-nav ul').show();
+					}, function() {
+						$('#nav li.products-nav ul').hide();
+					});
+				})
+			</script>
+			<ul id="nav">
+									<li id="nav-fetch-top" class="products-nav">
+						<span>
+							<a href="/fetch">Fetch</a>
+						</span>
+						<ul>
+															<li id="nav-roadshow-top"><a href="/roadshow">Roadshow</a></li>
+													</ul>
+					</li>
+								<li id="nav-news"><a href="/news">News</a></li>
+				<li id="nav-blog"><a href="/blog">Blog</a></li>
+				<li id="nav-store"><a href="/store">Store</a></li>
+			</ul>
+			
+			<div class="search-wrap">
+					<form class="search" action="/search" method="get" accept-charset="utf-8">
+		<div>
+			<input type="search" id="searchtext" name="q" />
+			<input type="submit" value="Search" />
+		</div>
+	</form>
+			</div>
+	
+		</div>		
+	</div>
+</div>	
+	<div id="content-wrap">
+	
+		<div id="content">
+			
+			<div id="product-head" class="brief">
+				<ul id="product-nav">
+					<li id="nav-fetch"><a href="/fetch/">Fetch <span class="version">5.7</span></a></li>
+					<li id="nav-roadshow"><a href="/roadshow/">Roadshow <span class="version">1.0</span></a></li>
+				</ul>
+				
+				<h2 class="elevator fetch-elevator"><span class="line1">Your best friend for</span> <span class="line2">file transfer.</span></h2>
+				
+				<a class="product-mascot" href="/fetch/"><img src="/fetch/i/fetch-mascot-nostyle.jpg" alt="Fetch application logo" />Fetch</a>
+				
+				<ul id="product-nav-local">
+					<li id="nav-about-fetch"><a href="/fetch/about">About Fetch</a></li>
+					<li id="nav-download"><a href="/fetch/download/">Download</a></li>
+					<li id="nav-buy-upgrade"><a href="/fetch/buy/">Buy/Upgrade</a></li>
+					<li id="nav-support"><a href="/fetch/support">Support</a></li>
+				</ul>
+				
+			</div>		
+			<iframe id="downloader" width="0" height="0" frameborder="0" marginwidth="0" marginheight="0" style="display: none"></iframe>
+			<script type="text/javascript">$(document).ready(function() { $("#downloader").attr("src", "/fetch/download/Fetch_5.7.3.dmg?direct=1"); });</script>
+
+			<div class="intro head">
+					<h1>Thank you for downloading Fetch!</h1>
+			</div>
+			<div class="section">
+					<p>Your download should have started automatically, but if it hasn't, <a href="/fetch/download/Fetch_5.7.3.dmg?direct=1">download Fetch here</a>.</p>
+			</div>			
+			
+			<div class="section">
+				<h3>Lost Your Serial Number?</h3>
+				<p>If you already purchased Fetch, but you lost your serial number, fill out the <a href="/fetch/serial">lost serial number form</a> and we'll look for it in our records.</p>
+				
+				<h3>Eligible for a free license?</h3>
+					
+				<p>Free licenses to Fetch are available for users in educational institutions (including home schools), and for tax-exempt charitable organizations. Such institutions may distribute licensed copies of Fetch to their employees and students free of charge. <a href="/fetch/free">Apply For an educational or charitable license</a>.</p>
+				
+				<h3>Need Help Getting Started?</h3>
+				<p>If you are new to Fetch or file transfers, see our <a href="/fetch/help/Contents/QuickGuide.html">quick guide to Fetch</a>.</p>
+			</div>
+			
+			<div class="callout-block support">
+
+			<div class="callout-copy">
+			<h3>Need assistance?</h3>
+		
+			<ul>
+				<li><a href="/fetch/faq">Read FAQs</a></li>
+				<li><a href="/fetch/messageboard">View our message board</a></li>
+				<li><a href="/fetch/support">Contact support</a></li>
+			</ul>
+		</div>
+	
+		<ul class="callout-list-alt">
+			<li class="callout-wrap cw1">
+				<a href="/fetch/faq" class="read-faqs-alt"><span class="line1">read</span> <span class="line2">FAQs</span></a>
+				<p>For D.I.Y. help</p>
+			</li>
+			<li class="callout-wrap cw2">
+				<p>Support available by </p>
+				<a href="/fetch/support" class="email-web-alt"><span class="line1">email</span><span class="line2">&amp;web</span></a>	
+			</li>
+			<li class="callout-wrap cw3">
+				<a href="/fetch/messageboard" class="message-board-alt"><span class="line1">message</span> <span class="line2">board</span></a>	
+				<p>Thousands of questions answered</p>
+			</li>
+		</ul>
+	
+</div>
+			
+<div id="footer">
+
+		<p>&copy; Copyright 2000 &ndash; 2013 from your friends at Fetch Softworks</p>
+		
+		<ul>
+			<li class="first"><a href="/contact">Contact</a></li>
+			<li><a href="/privacy">Privacy Policy</a></li>
+			<li><a href="/about-us">About Us</a></li>
+		</ul>
+		</div>	<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+	try{
+	var pageTracker = _gat._getTracker("UA-568872-1");
+	pageTracker._trackPageview();
+	} catch(err) {}</script>
+					
+		
+		</div>		
+		
+	</div>			
+		
+</body>
+</html>

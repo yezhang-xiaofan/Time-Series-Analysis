@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+    <title>500 Internal Server Error</title>
+    <style type="text/css">
+    #powered_by {
+        margin-top: 20px;
+        border-top: 2px solid black;
+        font-style: italic;
+    }
+
+    #traceback {
+        color: red;
+    }
+    </style>
+</head>
+    <body>
+        <h2>500 Internal Server Error</h2>
+        <p>The server encountered an unexpected condition which prevented it from fulfilling the request.</p>
+        <pre id="traceback">Traceback (most recent call last):
+  File "/home/andrew/jobspice/external/cherrypy/_cprequest.py", line 606, in respond
+    cherrypy.response.body = self.handler()
+  File "/home/andrew/jobspice/external/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "&lt;string&gt;", line 2, in docx
+  File "/home/andrew/jobspice/main/decorators.py", line 10, in json_args
+    return f(self, *args, **kwds)
+  File "/home/andrew/jobspice/main/support.py", line 34, in docx
+    docx = lib.process.create_docx(css, xhtml)
+  File "/home/andrew/jobspice/lib/process.py", line 147, in create_docx
+    docx = c.convert('rtf-xfc')
+  File "/home/andrew/jobspice/external/zopyx/convert2/convert.py", line 33, in convert
+    output_filename = c.convert(output_filename, **options)
+  File "/home/andrew/jobspice/external/zopyx/convert2/xfc.py", line 74, in convert
+    return fo2xfc(self.fo_filename, self.output_format, output_filename)
+  File "/home/andrew/jobspice/external/zopyx/convert2/xfc.py", line 54, in fo2xfc
+    raise ConversionError('Error executing: %s' % cmd, output)
+ConversionError: Error executing: "None/fo2docx" "/tmp/tmpKTCCC7.fo" "/tmp/tmpG7PQb_.docx"
+Output:
+/bin/sh: None/fo2docx: not found
+</pre>
+    <div id="powered_by">
+    <span>Powered by <a href="http://www.cherrypy.org">CherryPy 3.1.2</a></span>
+    </div>
+    </body>
+</html>
